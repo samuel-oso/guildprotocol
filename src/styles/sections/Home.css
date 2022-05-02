@@ -1,0 +1,174 @@
+.home {
+  font-family: NeueMachina, serif;
+  padding: 12vw 8vw 0 8vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.home-nav {
+  position: fixed;
+}
+
+h2 {
+  font-size: 8.286vw;
+  text-align: center;
+}
+
+.home-text {
+  color: #a5acaf;
+  text-align: center;
+  font-size: 3.733vw;
+  padding: 5.326vw 5vw;
+  margin-bottom: 4vw;
+  line-height: 146%;
+}
+.home-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.75vw 1.75vw 1.75vw 2.8vw;
+  background-color: #12131a;
+}
+.home-svg {
+  width: 5vw;
+}
+
+.mantine-kq40w7 {
+  padding: 1vw;
+  background-color: #12131a;
+  border: none;
+  font-family: "Space Grotesk", sans-serif;
+  width: 43vw;
+}
+.home-form input {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.4vw;
+}
+.home-form ::placeholder {
+  color: gray;
+  font-weight: 700;
+  font-size: 3.4vw;
+}
+.mantine-qo1k2 {
+  font-size: 3.29vw;
+}
+.mantine-1dnos9t {
+  background-color: #217960;
+  font-family: Oxanium, sans-serif;
+  cursor: pointer;
+  font-weight: 550;
+  height: 10vw;
+  width: 24vw;
+  padding: 0 3.5vw;
+}
+.mantine-1dnos9t:hover {
+  opacity: 0.5;
+  background-color: #217960;
+}
+.home-video {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 6.4vw;
+  cursor: pointer;
+}
+.home-video a {
+  text-decoration: none !important;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.73vw;
+}
+.home-video img {
+  width: 4vw;
+  margin-left: 0.5vw;
+}
+.home-alpha {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17vw;
+}
+.home-beta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vw;
+}
+.heroimg1 {
+  width: 55vw;
+}
+.heroimg2 {
+  display: none;
+}
+
+@media (min-width: 701px) {
+  .home {
+    padding: 0 4vw;
+  }
+  .home-beta {
+    justify-content: space-between;
+    height: 0;
+  }
+
+  h2 {
+    font-size: 4.444vw;
+    width: 65vw;
+    align-self: center;
+  }
+  .home-text {
+    font-size: 1.111vw;
+    padding: 1.389vw;
+    margin-bottom: 1.042vw;
+    width: 52vw;
+    align-self: center;
+  }
+  .home-alpha {
+    margin-top: 0;
+  }
+  .home-form {
+    padding: 0.555vw 0.63vw 0.555vw 1.85vw;
+  }
+  .mantine-1dnos9t {
+    height: 3.7vw;
+    width: 10.07vw;
+    padding: 0;
+  }
+  .mantine-qo1k2 {
+    font-size: 1.111vw;
+  }
+  .home-form ::placeholder {
+    font-size: 1.21vw;
+  }
+  .home-svg {
+    width: 2vw;
+  }
+  .home-form {
+    width: 40vw;
+    align-self: center;
+  }
+  .home-form input {
+    width: 25vw;
+    font-size: 1vw;
+  }
+  .home-video {
+    margin-top: 1.667vw;
+  }
+  .home-video a {
+    font-size: 1.111vw;
+  }
+  .home-video img {
+    width: 1.12vw;
+  }
+  .heroimg2 {
+    display: block;
+    width: 14.24vw;
+    top: 18vw;
+    left: 79vw;
+  }
+  .heroimg1 {
+    width: 14.24vw;
+    top: 27vw;
+    right: 3vw;
+  }
+}

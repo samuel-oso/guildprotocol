@@ -1,0 +1,70 @@
+.menu-icon {
+  position: relative;
+  width: 51px;
+  height: 12.8px;
+  cursor: pointer;
+  background-color: #020204;
+  bottom: 3px;
+}
+
+.menu-icon .menu-icon-checkbox {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+  -webkit-touch-callout: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.menu-icon div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-icon span {
+  position: absolute;
+  display: block;
+  height: 2px;
+  background-color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+}
+
+.menu-icon span:first-of-type {
+  top: 0.1953vw;
+  width: 8vw;
+}
+
+.menu-icon span:last-of-type {
+  bottom: 0;
+  width: 5.335vw;
+}
+
+.menu-icon.active span:first-of-type,
+.menu-icon .menu-icon-checkbox:checked + div span:first-of-type {
+  transform: rotate(45deg);
+  top: 5px;
+}
+
+.menu-icon.active span:last-of-type,
+.menu-icon .menu-icon-checkbox:checked + div span:last-of-type {
+  transform: rotate(-45deg);
+  bottom: 5px;
+  width: 22px;
+}
+
+.menu-icon.active span:first-of-type,
+.menu-icon.active span:last-of-type,
+.menu-icon .menu-icon-checkbox:checked + div span:first-of-type,
+.menu-icon .menu-icon-checkbox:checked + div span:last-of-type {
+  width: 5.34vw;
+}
+
+@media (min-width: 701px) {
+  .menu-icon {
+    display: none;
+  }
+} ;

@@ -1,0 +1,49 @@
+.drawer {
+  background-color: #020204;
+  height: 100vh;
+}
+.drawer-container {
+  padding: 2vw 10vw;
+}
+.mantine-1l2hpq0:not(.__mantine-ref-noOverlay) {
+  top: 25vw;
+}
+.mantine-xm7qi9 {
+  top: 25vw;
+  width: 100%;
+}
+.drawer p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4vw 5vw;
+  background-color: #020204;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 3.944vw;
+}
+.drawer img {
+  width: 4.5vw;
+  visibility: hidden;
+}
+.drawer-card {
+  padding: 1vw;
+  background-color: #020204;
+  margin-bottom: 3vw;
+  border: 1.5px solid rgba(165, 172, 175, 0.5);
+}
+.card-active {
+  border: 1.5px solid #153c31 !important;
+}
+.card-active p {
+  background-color: #153c31 !important;
+}
+.card-active img {
+  visibility: visible !important;
+}
+
+@media (min-width: 701px) {
+  .drawer {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: Oxanium, sans-serif;
+  background-color: #020204;
+  color: #fff;
+}
